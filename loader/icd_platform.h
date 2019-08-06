@@ -26,7 +26,7 @@
 #ifdef __ANDROID__
 #define ICD_VENDOR_PATH "/system/vendor/Khronos/OpenCL/vendors/";
 #else
-#define ICD_VENDOR_PATH "/etc/OpenCL/vendors/";
+#define ICD_VENDOR_PATH "/home/eck/.local/etc/OpenCL/vendors/";
 #endif // ANDROID
 
 #elif defined(_WIN32)
